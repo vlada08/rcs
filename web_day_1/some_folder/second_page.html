@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>second page</title>
+</head>
+
+<body>
+    <h1>Seccond page</h1>
+    <a href="../index.html">back</a>
+    <!--velamies atgriezties vienu limeni uz augsu; realtivais linkosanas veids-->
+    <!--var lietot ari absoluto celu, rakstot visu pilno celu-->
+    <br>
+    <img src="https://spi4.itvnet.lv/upload/articles/98/98912/images/Kaku-bildes-ko-likt-uz-1.jpg" alt="Kakis" width="300" height="300">
+    <!--self-closing tab-->
+    <a href="../index.html">
+        <img src="https://spi4.itvnet.lv/upload/articles/98/98912/images/Kaku-bildes-ko-likt-uz-1.jpg" alt="Kakis" width="300" height="300">
+        <!--self-closing tab-->
+    </a>
+    <div>foo</div>
+    <div>foo</div>
+    <span>bar</span>
+    <span>bar</span>
+    <ol>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+    </ol>
+
+    <ol type="I">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+    </ol>
+    <ul type="square">
+        <li>item 1</li>
+        <li>
+            item 2
+            <ol type="I">
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+                <li>item 4</li>
+            </ol>
+        </li>
+        <li>item 3</li>
+        <li>item 4</li>
+    </ul>
+
+    <dl>
+        <dt>Title</dt>
+        <dd>content</dd>
+        <dt>Title</dt>
+        <dd>content</dd>
+        <dt>Title</dt>
+        <dd>content</dd>
+        <dd>content</dd>
+    </dl>
+
+    <!-- Tabulas -->
+    <table border="1">
+        <tr>
+            <!--Rindas-->
+            <td>item 1 </td>
+            <!--Cells-->
+            <td>item2</td>
+            <td colspan="2">item 3</td>
+
+        </tr>
+        <tr>
+            <td>item 1 </td>
+            <td>item 2</td>
+            <td>item 3</td>
+            <td>item 4</td>
+        </tr>
+        <tr>
+            <td>item 1 </td>
+            <td>item 2</td>
+            <td rowspan="2">item 3</td>
+            <td>item 4</td>
+        </tr>
+        <tr>
+            <td>item 1 </td>
+            <td>item 2</td>
+
+            <td>item 4</td>
+        </tr>
+        <tr>
+            <td>item 1 </td>
+            <td>item 2</td>
+            <td>item 3</td>
+            <td>item 4</td>
+        </tr>
+    </table>
+
+    <!-- Formas. Visas formas ir inline elementi -->
+
+    <form action="../index.html" method="POST">
+        <div>
+            <label for="Username">Username</label>
+        </div>
+        <div>
+            <input id="Username" placeholder="Username" name="Username">
+        </div>
+        <div>
+            <label for="Password">Password</label>
+        </div>
+        <div>
+            <input id="Password" type="password" placeholder="Password" name="password">
+        </div>
+        <div>
+            <input type="submit" value="Log-IN">
+        </div>
+        <div>
+            <input type="checkbox" id="terms" checked>
+            <label for="terms">I agee with terms</label>
+
+        </div>
+        <div>
+
+            <input type="radio" id="item1" name="some">
+            <label for="item1">Item 1</label>
+            <input type="radio" id="item2" name="some" checked>
+            <!--checked lai checked in default-->
+            <label for="item2">Item 2</label>
+            <input type="radio" id="item3" name="some">
+            <label for="item3">Item 3</label>
+
+        </div>
+
+        <div>
+            <label for="country">Country</label>
+        </div>
+        <div>
+            <select id="country" id="">
+                <option value="">Latvija</option>
+                <option value="" selected>Zimbabve</option>
+                <!--selected lai vins butu atzimets sakuma-->
+                <option value="">Narnija</option>
+            </select>
+        </div>
+
+
+        <label for="long-text">Some long text</label>
+        <div>
+            <textarea name="" id="long-text" placeholder="Type your text here..." rows="10" cols="50">
+            </textarea>
+        
+        
+        
+        
+        </div>
+
+    </form>
+
+
+
+</body>
+
+</html>

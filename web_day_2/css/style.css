@@ -1,0 +1,88 @@
+
+/*control delivery network vienmer bus pieejami, atrak pieejami,sutis datus no tuv.geograf servera
+*/
+
+h1 {
+    background: rgb(119, 114, 197);
+    color: green;
+    font-size: 50px; /*katra rinda ir deklaracijas*/
+    /* border-width: 10px;
+    border-color: blue;
+    border-style: solid; */
+    border: 10px blue solid;
+    width: 700px;
+    height: 80px;
+    overflow: hidden;
+    text-align: center;
+    line-height: 80px;
+    /*margin: 50px;
+    padding: 60px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 40px;*/
+    margin:10px 20px 30px 40px;
+    margin: 20px 40px; /*otrais-pa labi, pa kreisi; pirmais uz augsu, uz leju*/
+    margin: 10px 20px 30px;/*pa kreisi panems to, kas bija labi*/
+
+    margin: 20px;/*visam malam 20 iznemot top*/
+    margin-top: 50px;
+
+    padding: 60px;
+
+    width: 400px;
+    /*max-width: 500px;*/
+    float: right;
+}
+.Super-special{
+    width: 100px;
+    height: 100px;
+    /*background: red;*/
+    background: rgba(255,0,0);
+
+    position: fixed; /*bus vienmer augsa, bet ar absolute - pazudis skrolejot*/
+    top: 0px;
+    left: 0px;
+    font-size: 50px;
+    color: blue;
+    /*opacity: 0.5;*/
+
+}
+.special1{
+    z-index: 2;
+    background: red;
+    top: 50%;
+    left:50%;
+    margin-left: -50px;
+    margin-right: -50px;
+    border-radius: 50px;
+}
+.special2{
+    left:50px;
+    background:blue;
+    z-index:1;
+}
+.special3{
+    left:25px;
+    top: 50px;
+    background: green;
+}
+
+.btn-danger{
+    background: rgb(85, 21, 21);
+}
+.row{
+    background:red;
+}
+
+
+
+/* -mmmm- eksperimetalie css dekalracijas, ne visi browseri atbalsta
+
+
+
+/* 09 a b c d f - heks decimala sistema */
+/* h1 {
+    background: #f00
+} */
+
