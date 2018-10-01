@@ -1,0 +1,296 @@
+li.head{
+    float:left;
+    padding: 18px 18px 10px;  
+    color: black;
+    width:65%;
+}
+li.tab {
+    float: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    text-align: justify;
+    vertical-align: middle;
+    
+    padding: 26px 18px 10px; 
+    text-decoration: none;  
+   
+}
+li a {
+    color: black;  
+}
+li a:hover {
+    color:grey;
+    text-decoration: none;
+}
+li a:selection{
+    color:grey;
+    text-decoration: none;
+}
+/* for jquery library */
+.touchgallery{
+    position: relative;
+    overflow: hidden;
+    width: 50%; /* default gallery width */
+    height: 500px; /* default gallery height */
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    .touchgallery ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    position: absolute;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    transform: translateX(0);
+    -moz-transition: all 150ms ease-in-out; /* image transition. Change 100ms to desired transition duration */
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    
+    }
+    
+    .touchgallery ul li{
+    float: left;
+    display: block;
+    text-align: center;
+    /* margin-left: 420px; */
+    
+    }
+    
+    .touchgallery ul li img{ /* CSS for images within gallery */
+    max-width: 100%; /* make each image responsive, so its native width can occupy up to 100% of gallery's width, but not beyond */
+    height: auto;
+    }
+    
+    .touchgallery .jumptodiv{ /* CSS for DIV that houses bullets that navigate to a specific image when clicked on */
+    text-align: center;
+    width: 100%;
+    background: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 7px;
+    position:absolute;
+    bottom: 0;
+    margin-top: 0;
+    text-shadow: 0 1px 2px #8a8a8a;
+    }
+
+    navbuttons{
+        margin-left: 50px;
+    }
+    
+    .touchgallery .jumptodiv span.selected{ /* CSS for selected bullet inside jumptodiv */
+    color: darkred;
+    }
+   
+   .row{
+       margin-left: 50px;
+       margin-right:30px;
+   } 
+   ul.row{
+    list-style-type: none;  
+    margin-left: 0;
+    margin-right:0;
+    border-bottom: 2px solid black;
+}
+#c1,#c2,#c3{
+    height: 160px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+#row-c1,#row-c2,#row-c3 {
+       margin-left: 0px;
+       margin-right:0px;
+       height: 160px;
+       font-size: 5;
+       
+}
+#home-col1,#home-col2,#home-col3,#articles-col1,
+#articles-col2,#articles-col3{
+    padding: 0px;
+    vertical-align: middle;
+}
+
+.ArtText{
+    font-size: 8pt;
+    text-align: justify;
+}
+
+
+#articles-row1, #articles-row2,#articles-row3{
+    height: 170px;
+    border-bottom: 2px solid black;
+    
+}
+
+.right-side{
+    text-align: right;
+  
+}
+
+.pagination{
+display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: absolute;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 8pt;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.pagination#pagin-numbers a:not(#page-last){
+    border-right: 1px solid black;  
+}
+#footer{
+    border-top: 2px solid black;
+    text-align: end;
+}
+footer {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: left;
+  }
+
+  #empty-row{
+      height: 100pt;
+  }
+  #row-art1-1{
+      height:80%;
+  }
+  #art1-col1,#art1-col3-1{
+      padding: 0px;
+  }
+  #art1-col2{
+      padding: 0px;
+      text-align: justify;
+  }
+
+  #row2-art1{
+      margin-left:0px;
+      padding:0px;
+      width: 100%;
+      height:50%;
+    
+  }
+  .col-4{
+      padding:0px;
+      text-align: justify;
+  }
+#message-field{
+    height: 350pt;
+    border: 2px solid black;
+    margin-left: 50px;
+       margin-right:30px;
+       overflow-y: scroll;
+}
+
+#typed-values{
+    margin-left: 0px;
+    /* padding-left: 40px;  */
+    
+}
+
+.saved-mes{
+    padding-left: 0px;
+    margin-left: 40px;
+    margin-right:30px;
+           
+}
+
+        .saved-mes2{
+            padding-left: 50px;
+            padding-bottom: 5px;
+            margin-left: 50px;
+            margin-right:30px; 
+            border: 1px solid black;
+            border-top: 0px;
+        }
+
+        .chat-mes{
+            display: inline;
+            border: 1px solid black;
+            /* border-top: none; */
+            margin-left: 50px;
+            margin-right:30px;
+               /* overflow-y: scroll; */
+        }
+
+        #type-form{
+            margin-left: 50px;
+            margin-right: 30px;
+        }
+        
+        #type-message{
+            display: inline;
+            width: 750px;
+
+        }
+        .btn{
+            margin-bottom: 0px;
+            margin-top: 35px;
+            border: 1px solid black;
+            
+        }
+        
+        .input-fields form{
+            margin-left: 50px;
+            margin-right: 30px;
+        }
+
+       
+        
+         #input-mes{
+            margin-left: 0px;
+            text-align: justify;
+            /* border-bottom: 1px solid black;   */
+            display: inline;
+            word-wrap: break-word;
+        } 
+        
+        #input-mes2{
+            border-bottom: 1px solid black;
+            margin-left: -40px;
+            padding-left: 0px;
+        }
+        .tab-content{
+            height: 40px;
+            border-left: 1 px solid black;
+        }
+        #row-tab1,#row-tab2,#row-tab3,#row-tab4{
+            border: 1px solid grey;
+            padding-left: 0px;
+            padding-top: 8px;
+            margin-left: 0px;
+            margin-top: 0px;
+            
+
+        }
+        #tab-sub{
+            height: 250pt;
+            margin-left: 50px;
+       margin-right:30px;
+        }
+        #about-head{
+            padding-top: 0px;
+        }
+       
+        

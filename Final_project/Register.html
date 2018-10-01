@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Final project - Articles page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="http://www.dynamicdrive.com/dynamicindex4/touchgallery.css" /> -->
+    <link rel="stylesheet" href="final.css">
+
+</head>
+
+<body>
+    <nav>
+        <ul class="row">
+            <li class="head">
+                <h2>LOGO</h2>
+            </li>
+            <li class="tab"> <a href="Home.html">Home</a> </li>
+            <li class="tab"> <a href="Articles/Article.html">
+                    Article
+                </a> </li>
+            <li class="tab"> <a href="Chat.html">
+                    Chat
+                </a> </li>
+            <li class="tab"> <a href="#Register"><font color="grey">Register</font></a> </li>
+            <li class="tab"> <a href="About.html">About us</a></li>
+        </ul>
+    </nav>
+
+    <div class="row">
+        Home &#8883 <font color="grey"> Register</font>
+    </div>
+    <br>
+    <div class="row">
+        <h4>Register</h4>
+    </div>
+
+    <div class="input-fields">
+        <form action="username"> 
+            <input type="text" placeholder="Username*" class="obligate"><br>
+        </form>
+        <form action="password"> <br>
+            <input type="password" placeholder="Password*" id="typePassword" >
+        </form>
+
+        <form action="reset-password"> <br>
+            <input type="password" placeholder="Retype password*" id="typePasswordRepeat" >
+        </form>
+        <form action="first-name"> <br>
+            <input type="text" placeholder="First name*" class="obligate">
+        </form>
+
+        <form action="last-name"> <br>
+            <input type="text" placeholder="Last name">
+        </form>
+        <form action="countries"><br>
+            <select name="country" placeholder="country" id="countrySel">
+                    <option selected="selected" value="" selected disabled hidden>
+                           Country*
+                            </option>
+                    <option value="Latvia">Latvia</option>
+                    <option value="Lithuania">Lithuania</option>
+                    <option value="Estonia">Estonia</option>
+                    <option value="England">England</option>
+                  </select>
+        </form>
+        <form action="checkbox"> <br>
+        <input type="checkbox" name="agreement" id="box-checked" > Agree with terms and conditions*
+    </form>
+    <form action="but-register"> 
+
+        <button type="button" onclick='register()'>Register</button>
+    </form>
+    
+    </div>
+
+
+    <div class="row" id="empty-row">
+
+    </div>
+
+    <div class="row" id="footer">
+        <footer>
+            Not for futher presentation.
+        </footer>
+    </div>
+    <!-- <script src="//code.jquery.com/jquery-2.2.0.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://www.dynamicdrive.com/dynamicindex4/jquery.touchSwipe.min.js"></script>
+    <script src="http://www.dynamicdrive.com/dynamicindex4/touchgallery.js"></script>
+    <script src="finProj.js"></script>
+
+
+
+</body>
+
+</html>
